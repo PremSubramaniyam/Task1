@@ -33,16 +33,6 @@ public class MainClass {
 		list.stream()
 			.map(x -> x.getAge() < 24)
 			.forEach(System.out::println);
-		
-		/*
-		 * Optional<Integer> op = Optional.ofNullable(1235);
-		 * 
-		 * Optional<Integer> value = op.filter(number -> number % 2 == 0);
-		 * 
-		 * if (value.isEmpty()) { System.out.println("Odd number"); } else {
-		 * System.out.println("Even number"); }
-		 */
-        
+		 
 	}
-
 }
